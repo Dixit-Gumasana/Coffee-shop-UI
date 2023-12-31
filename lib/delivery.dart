@@ -106,7 +106,7 @@ class _deliveryState extends State<delivery> {
                   ),
                   Padding(
                     padding:
-                        const EdgeInsets.only(top: 55, left: 175, right: 105),
+                        const EdgeInsets.only(top: 55, left: 175, right: 100),
                     child: Text(
                       'Jl. Kpg Sutoyo',
                       style: TextStyle(
