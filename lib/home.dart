@@ -45,7 +45,7 @@ class _homeState extends State<home> {
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(right: 240),
+                    padding: const EdgeInsets.only(right: 235),
                     child: Text(
                       'Location',
                       style: TextStyle(
@@ -90,7 +90,11 @@ class _homeState extends State<home> {
             Padding(
               padding: const EdgeInsets.only(top: 130, right: 30, left: 30),
               child: TextField(
+                style: TextStyle(
+                  color: Colors.white70
+                ),
                 decoration: InputDecoration(
+
                     focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(15),
                         borderSide: BorderSide(color: Colors.white60)),

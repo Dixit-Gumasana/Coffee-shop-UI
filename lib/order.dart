@@ -49,7 +49,7 @@ class _orderState extends State<order> {
         body: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.only(top: 10,left: 30,right: 30),
+              padding: const EdgeInsets.only(left: 30,right: 30),
               child: Stack(
                 children: [
                   Container(
@@ -80,7 +80,7 @@ class _orderState extends State<order> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 13,left: 200,right: 45.75),
+                    padding: const EdgeInsets.only(top: 13,left: 200,right: 42),
                     child: Text('Pick Up',style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w400,
@@ -90,9 +90,9 @@ class _orderState extends State<order> {
                 ],
               ),
             ),
-            SizedBox(height: 24),
+            SizedBox(height: 12),
             Padding(
-              padding: const EdgeInsets.only(left: 30,right: 208),
+              padding: const EdgeInsets.only(left: 30,right: 200),
               child: Text('Delivery Address',style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w600,
@@ -101,7 +101,7 @@ class _orderState extends State<order> {
             ),
             SizedBox(height: 16),
             Padding(
-              padding: const EdgeInsets.only(left: 30,right: 239),
+              padding: const EdgeInsets.only(left: 30,right: 235),
               child: Text('Jl. Kpg Sutoyo',style: TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.w600,
@@ -110,7 +110,7 @@ class _orderState extends State<order> {
             ),
             SizedBox(height: 8),
             Padding(
-              padding: const EdgeInsets.only(left: 30,right: 107),
+              padding: const EdgeInsets.only(left: 30,right: 95),
               child: Text('Kpg. Sutoyo No. 620, Bilzen, Tanjungbalai.',
                 style: TextStyle(
                 fontSize: 12,
@@ -292,7 +292,7 @@ class _orderState extends State<order> {
             ),
             SizedBox(height: 20),
             Padding(
-              padding: const EdgeInsets.only(left: 30,right: 193),
+              padding: const EdgeInsets.only(left: 30,right: 185),
               child: Text('Payment Summary',style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w600,

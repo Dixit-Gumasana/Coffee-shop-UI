@@ -57,7 +57,7 @@ class _detailitemState extends State<detailitem> {
             Padding(
               padding: const EdgeInsets.only(top: 10, left: 30, right: 30),
               child: Container(
-                height: MediaQuery.of(context).size.height / 3.58,
+                height: MediaQuery.of(context).size.height / 3.65,
                 width: MediaQuery.of(context).size.width / 1.2,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(16),
@@ -85,7 +85,7 @@ class _detailitemState extends State<detailitem> {
                           color: Color(0xff2f2d2c)),
                     ),
                     SizedBox(
-                      height: 8,
+                      height: 2,
                     ),
                     Text(
                       'with Chocolate',
@@ -157,7 +157,7 @@ class _detailitemState extends State<detailitem> {
             ),
             SizedBox(height: 20),
             Padding(
-              padding: const EdgeInsets.only(left: 30, right: 247),
+              padding: const EdgeInsets.only(left: 30, right: 240),
               child: Text('Description',
                   style: TextStyle(
                     fontSize: 16,
@@ -193,7 +193,7 @@ class _detailitemState extends State<detailitem> {
             ),
             SizedBox(height: 20),
             Padding(
-              padding: const EdgeInsets.only(left: 30,right: 299),
+              padding: const EdgeInsets.only(left: 30,right: 295),
               child: Text('Size',
               style: TextStyle(
                 fontSize: 16,

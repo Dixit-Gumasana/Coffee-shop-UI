@@ -44,9 +44,9 @@ class _screen1State extends State<screen1> {
               ],
             ),
             Padding(
-              padding: const EdgeInsets.only(top: 502, right: 30, left: 30),
+              padding: const EdgeInsets.only(top: 485, right: 30, left: 30),
               child: Container(
-                height: MediaQuery.of(context).size.height / 6,
+                height: MediaQuery.of(context).size.height / 5.4,
                 width: MediaQuery.of(context).size.width,
                 color: Color(0xff000000),
                 child: Column(
